@@ -25,12 +25,58 @@ scores =[
   }
 ]
 
-esther_total = scores[0][:Esther] + scores[1][:Esther] + scores[2][:Esther] + scores[3][:Esther]
-john_total = scores[0][:John] + scores[1][:John] + scores[2][:John] + scores[3][:John]
-donald_total = scores[0][:Donald] + scores[1][:Donald] + scores[2][:Donald] + scores[3][:Donald]
-lance_total = scores[0][:Lance] + scores[1][:Lance] + scores[2][:Lance] + scores[3][:Lance]
 
-puts "Esther's total points: #{esther_total}"
-puts "John's total points: #{john_total}"
-puts "Donald's total points: #{donald_total}"
-puts "Lance's total points: #{lance_total}"
+john_total = []
+john_scores = []
+scores.each do |test|
+  total = test.values[0]
+  john_scores << total
+end 
+
+sum = 0
+john_scores.each { |a| sum += a }
+john_total << sum
+puts "John #{john_total}"
+
+esther_total = []
+esther_scores = []
+scores.each do |test|
+  total = test.values[1]
+  esther_scores << total
+end 
+
+sum = 0
+esther_scores.each { |a| sum += a }
+esther_total << sum
+puts "Esther #{esther_total}"
+
+
+donald_total = []
+donald_scores = []
+scores.each do |test|
+  total = test.values[2]
+  donald_scores << total
+end 
+
+sum = 0
+donald_scores.each { |a| sum += a }
+donald_total << sum
+puts "Donald #{donald_total}"
+
+
+lance_total = []
+lance_scores = []
+scores.each do |test|
+  total = test.values[3]
+  lance_scores << total
+end 
+
+sum = 0
+lance_scores.each { |a| sum += a }
+lance_total << sum
+puts "Lance #{lance_total}"
+
+
+
+
+

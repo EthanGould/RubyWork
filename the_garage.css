@@ -1,0 +1,126 @@
+body{
+  max-width: 1000px;
+  height: 950px;
+  margin: 0 auto;
+  background-image: url("carbackground.jpg");
+  background-position: center;
+}
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(39, 112, 222, 0.3);
+  margin: 0px;
+}
+.dropdowns{
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.search{
+  float: left;
+  color: white;
+  margin-left: 15px;
+}
+.make{
+  width: 25%;
+  float: left;
+}
+.bodystyle{
+  width: 25%;
+  float: left;
+}
+.year{
+  width: 25%;
+  float: left;
+}
+.formtitle{
+  text-align: center;
+  color: white;
+}
+.rightpanel{
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  width: 25%;
+  color: white;
+}
+#images{
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin: 10px 10px 0 10px;
+  background-size: cover;
+  border-radius: 10px;
+  border: solid white 2px;
+}
+.image1{
+  background-image: url("jay1.jpg");
+}
+.image2{
+  background-image: url("jay2.jpg");
+}
+.image3{
+  background-image: url("jay3.jpg");
+}
+.image4{
+  background-image: url("jay4.jpg");
+}
+.caption{
+  position: absolute;
+  top: 0px;
+  margin: 0px;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  text-align: center;
+}
+.caroftheweek{
+  background-image: url("weekly.jpg");
+  float: left;
+  background-size: cover;
+  border-radius: 10px;
+  border: solid white 2px;
+  width: 240px;
+  height: 190px;
+  margin: 10px 10px 10px 10px;
+}
+.name{
+  position: absolute;
+  top: 0px;
+  margin: 0px;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  text-align: center;
+}
+.greeting{
+  position: absolute;
+  top: 70px;
+  width: 550px;
+  text-align: center;
+  color: white;
+  margin: 0 0px 0 190px;
+}
+.body{
+  position: absolute;
+  top: 150px;
+  width: 720px;;
+  color: white;
+  margin: 0 275px 0 10px;
+  background: rgba(0,0,0,0.6);
+  padding: 0 10px 0 10px;
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  background-image: url("flag.jpg");
+  background-size: cover;
+}
+.welcome{
+  font-family: 'Freckle Face', cursive;
+}
